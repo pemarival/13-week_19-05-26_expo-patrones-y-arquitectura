@@ -1,3 +1,5 @@
+# Arbol documentación
+
 ```
 design-software-docs/
 │
@@ -127,4 +129,7 @@ design-software-docs/
 ├── assets/
 └── tools/
 ```
+
+# El por qué de la decisión 
+
 Se recomienda fusionar `project-context` y `product-definition` porque ambos describen el producto y así se evita duplicidad. Renombrar `sena-domain` a `domain` hace la arquitectura más reutilizable e independiente de una institución. Reducir documentos de governance y tantos `README.md` ayuda a disminuir burocracia y mantenimiento innecesario. El backlog es mejor manejarlo fuera de `docs` porque cambia constantemente. Reemplazar `microservices` por `services` mejora la modularidad y organización de cada servicio. Separar `observability` de `devops` permite manejar mejor monitoreo, logs y métricas. Agregar `compliance` ayuda con auditorías y normativas, mientras que `references` centraliza estándares y documentación externa. También es importante fortalecer UX con responsive strategy y catálogo de componentes para definir mejor la experiencia del usuario. En general, simplificar la estructura hace el proyecto más mantenible, claro y escalable.
